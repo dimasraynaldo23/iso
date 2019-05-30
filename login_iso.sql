@@ -137,7 +137,7 @@ INSERT INTO `user_sub_menu` (`id`, `menu_id`, `title`, `url`, `icon`, `is_active
 (3, 1, 'Dashboard', 'admin', 'fas fa-fw fa-tachometer-alt', 1),
 (5, 1, 'Valid dan Unvalid', 'admin', 'fas fa-fw fa-check-square', 1),
 (6, 2, 'Secara Khusus', 'user', 'fas fa-fw fa-folder', 1),
-(7, 2, 'Tidak Secara Khusus', 'user', 'far fa-fw fa-folder', 1),
+(7, 2, 'Tidak Secara Khusus', 'user/test', 'far fa-fw fa-folder', 1),
 (8, 3, 'Komentar', 'direktur', 'fas fa-fw fa-comments', 1),
 (9, 3, 'Charts', 'direktur', 'fas fa-fw fa-chart-area', 1),
 (10, 3, 'Tables', 'direktur', 'fas fa-fw fa-table', 1),
