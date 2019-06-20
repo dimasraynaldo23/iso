@@ -4,12 +4,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Auth extends CI_Controller 
 {
 
-	public function __construct()
-	{
-		parent::__construct();
-		$this->load->library('form_validation');
-	}
-
 	public function index()
 	{
 		$this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
@@ -55,7 +49,6 @@ class Auth extends CI_Controller
  				 $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">wrong password!</div>');
   			 	redirect('auth');
  			}
-
 
 
 
@@ -123,7 +116,13 @@ class Auth extends CI_Controller
 
 		$this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">your have been logged out!</div>');
 		redirect('auth');
-	} 
+	}
+
+	public function blocked()
+	{
+		$this->load->view('auth/blocked');
+	}
+
 
 
 } 

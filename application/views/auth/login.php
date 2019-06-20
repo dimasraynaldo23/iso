@@ -1,6 +1,9 @@
-
 <<<<<<< HEAD
 =======
+
+<!-- <<<<<<< HEAD -->
+<!-- ======= -->
+>>>>>>> ee45ad08a08c664c58162f0c8ade104d5016910d
 <head>
 
   <meta charset="utf-8">
@@ -21,7 +24,10 @@
 </head>
 
 <body class="bg-gradient-primary">
->>>>>>> 6f915c8aacbc7f939406d712ff91701869564be7
+<<<<<<< HEAD
+=======
+<!-- >>>>>>> 6f915c8aacbc7f939406d712ff91701869564be7 -->
+>>>>>>> ee45ad08a08c664c58162f0c8ade104d5016910d
 
   <div class="container">
 
@@ -78,6 +84,9 @@
 
 <<<<<<< HEAD
 =======
+<!-- <<<<<<< HEAD -->
+<!-- ======= -->
+>>>>>>> ee45ad08a08c664c58162f0c8ade104d5016910d
   <!-- Bootstrap core JavaScript-->
   <script src="<?php echo base_url('assets/'); ?>vendor/jquery/jquery.min.js"></script>
   <script src="<?php echo base_url('assets/'); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -91,4 +100,7 @@
 </body>
 
 </html>
->>>>>>> 6f915c8aacbc7f939406d712ff91701869564be7
+<<<<<<< HEAD
+=======
+<!-- >>>>>>> 6f915c8aacbc7f939406d712ff91701869564be7 -->
+>>>>>>> ee45ad08a08c664c58162f0c8ade104d5016910d

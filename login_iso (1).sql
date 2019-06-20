@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 30, 2019 at 09:16 AM
+-- Generation Time: Jun 10, 2019 at 10:46 PM
 -- Server version: 10.1.32-MariaDB
 -- PHP Version: 7.0.30
 
@@ -68,7 +68,6 @@ INSERT INTO `user_access_menu` (`id`, `role_id`, `menu_id`) VALUES
 (1, 1, 1),
 (2, 2, 2),
 (3, 3, 3),
-(4, 1, 3),
 (5, 2, 3),
 (6, 1, 4);
 
@@ -92,7 +91,7 @@ INSERT INTO `user_menu` (`id`, `menu`) VALUES
 (2, 'User'),
 (3, 'Data'),
 (4, 'Menu'),
-(5, 'Profil');
+(5, 'test');
 
 -- --------------------------------------------------------
 
@@ -135,13 +134,13 @@ CREATE TABLE `user_sub_menu` (
 
 INSERT INTO `user_sub_menu` (`id`, `menu_id`, `title`, `url`, `icon`, `is_active`) VALUES
 (3, 1, 'Dashboard', 'admin', 'fas fa-fw fa-tachometer-alt', 1),
-(5, 1, 'Valid dan Unvalid', 'admin', 'fas fa-fw fa-check-square', 1),
-(6, 2, 'Secara Khusus', 'user', 'fas fa-fw fa-folder', 1),
-(7, 2, 'Tidak Secara Khusus', 'user/test', 'far fa-fw fa-folder', 1),
-(8, 3, 'Komentar', 'direktur', 'fas fa-fw fa-comments', 1),
+(5, 1, 'Valid and Unvalid', 'admin/valid', 'fas fa-fw fa-check-square', 1),
+(6, 2, 'Dokumen', 'user', 'fas fa-fw fa-folder', 1),
 (9, 3, 'Charts', 'direktur', 'fas fa-fw fa-chart-area', 1),
-(10, 3, 'Tables', 'direktur', 'fas fa-fw fa-table', 1),
-(11, 4, 'Menu Management', 'menu', 'fas fa-fw fa-bars', 1);
+(11, 4, 'Menu Management', 'menu', 'fas fa-fw fa-bars', 1),
+(12, 4, 'Submenu Management', 'menu/submenu', 'fas fa-fw fa-caret-down', 1),
+(14, 3, 'Comment', 'direktur/comment', 'fas fa-fw fa-comment', 1),
+(15, 3, 'Table', 'direktur/table', 'fas fa-fw fa-table', 1);
 
 --
 -- Indexes for dumped tables
@@ -209,7 +208,7 @@ ALTER TABLE `user_role`
 -- AUTO_INCREMENT for table `user_sub_menu`
 --
 ALTER TABLE `user_sub_menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
