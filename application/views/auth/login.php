@@ -1,6 +1,6 @@
 
-<<<<<<< HEAD
-=======
+<!-- <<<<<<< HEAD -->
+<!-- ======= -->
 <head>
 
   <meta charset="utf-8">
@@ -21,7 +21,7 @@
 </head>
 
 <body class="bg-gradient-primary">
->>>>>>> 6f915c8aacbc7f939406d712ff91701869564be7
+<!-- >>>>>>> 6f915c8aacbc7f939406d712ff91701869564be7 -->
 
   <div class="container">
 
@@ -76,8 +76,8 @@
 
   </div>
 
-<<<<<<< HEAD
-=======
+<!-- <<<<<<< HEAD -->
+<!-- ======= -->
   <!-- Bootstrap core JavaScript-->
   <script src="<?php echo base_url('assets/'); ?>vendor/jquery/jquery.min.js"></script>
   <script src="<?php echo base_url('assets/'); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -91,4 +91,4 @@
 </body>
 
 </html>
->>>>>>> 6f915c8aacbc7f939406d712ff91701869564be7
+<!-- >>>>>>> 6f915c8aacbc7f939406d712ff91701869564be7 -->
