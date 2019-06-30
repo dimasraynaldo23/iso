@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://localhost/iso/';
-$config['base_url'] = 'http://localhost:8080/iso/'; //local farhan
+$config['base_url'] = 'http://localhost:/iso/'; //local farhan
 
 /*
 |--------------------------------------------------------------------------

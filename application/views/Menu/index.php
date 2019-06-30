@@ -31,7 +31,7 @@
 					      <th scope="row"><?= $i; ?></th>
 					      <td><?= $m['menu']; ?></td>
 					      <td>
-					      	<a href="<?= base_url(); ?>menu/edit/<?= $m['menu']; ?>" data-toggle="modal" data-target="#editMenuModal" class="badge badge-pill badge-primary">edit</a>
+					      	<a href="<?= base_url(); ?>menu/edit/<?= $m['id']; ?>" data-toggle="modal" data-target="#editMenuModal" class="badge badge-pill badge-primary">edit</a>
                   <a href="<?= base_url(); ?>menu/hapus/<?= $m['id']; ?>" class="badge badge-danger" onclick="return confirm('are you sure?');">delete</a>
 					      </td>
 					    </tr>
@@ -89,7 +89,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form action="<?= base_url('menu');  ?>" method="get">
+      <form action="<?= base_url('menu');  ?>" method="post">
       <div class="modal-body">
         <div class="form-group">
       <input type="text" class="form-control" id="menu" name="menu" placeholder="Menu name">

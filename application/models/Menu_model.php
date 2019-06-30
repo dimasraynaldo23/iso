@@ -27,9 +27,9 @@ class Menu_model extends CI_Model
  }
 
 
-  public function editDataMenu($menu)
+  public function editDataMenu($id)
  {
- 	$this->db->where('menu', $menu);
+ 	$this->db->where('id', $id);
  	$this->db->get('user_menu');
  }
 

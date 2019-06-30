@@ -104,9 +104,9 @@ class Menu extends CI_Controller
 		redirect('menu/submenu');
 	}
 
-	public function edit($menu)
+	public function edit($id)
 	{
-		$this->Menu_model->editDataMenu($menu);
+		$this->Menu_model->editDataMenu($id);
 		$this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Edited Menu successfully!</div>');
 		redirect('menu');
 	}
